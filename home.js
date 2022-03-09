@@ -59,9 +59,9 @@ window.addEventListener('scroll',function(e){
 
 
 window.onload = function () {
-     var backgroundImg=["/resources/bg1.jpg",
-                       "/resources/bg2.jpg",
-                       "/resources/bg3.jpg"]
+     var backgroundImg=["resources/bg1.jpg",
+                       "resources/bg2.jpg",
+                       "resources/bg3.jpg"]
 
        setInterval(changeImage, 2000);
       function changeImage() {   
